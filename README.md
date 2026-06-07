@@ -1,17 +1,28 @@
-# weather_app
+# Weather App 🌤️
 
-A new Flutter project.
+A Flutter weather app that fetches live weather data and caches it locally for offline use.
+
+## Features
+- Live weather data from Open-Meteo API
+- City search by name
+- Offline caching with Hive
+- Shows cached data indicator when offline
+- Clean dark UI
+
+## Tech Stack
+- Flutter & Dart
+- Riverpod (state management)
+- Dio (HTTP client)
+- Hive (local storage)
+
+## Screenshots
+Coming soon
 
 ## Getting Started
+```bash
+flutter pub get
+flutter run
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+Fortune Dev — [@Fortune_Dev](https://youtube.com/shorts/IJ77pR67duA?si=oiTzcoN7I4e83IqW)
